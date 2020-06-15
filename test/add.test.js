@@ -9,4 +9,8 @@ describe('加法函数的单元测试', function(){   // 测试套件
   it('1 + 3 = 4', function() {
     expect(add(1, 3)).to.be.equal(4);
   });
+
+  it('a + b = NaN', function() {
+    expect(add('a', 'b')).to.be.NaN;
+  });
 });

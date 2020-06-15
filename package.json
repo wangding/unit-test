@@ -4,7 +4,8 @@
   "description": "unit testing demo",
   "main": "sum.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover _mocha"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/wangding/unit-test#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
     "mocha": "^8.0.1"
   }
 }
