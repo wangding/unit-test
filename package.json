@@ -1,0 +1,24 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "unit testing demo",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "mocha-headless-chrome": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha-headless-chrome -f test/index.html -a no-sandbox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangding/unit-test.git"
+  },
+  "keywords": [],
+  "author": "wangding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangding/unit-test/issues"
+  },
+  "homepage": "https://github.com/wangding/unit-test#readme"
+}
