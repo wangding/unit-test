@@ -1,0 +1,28 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "unit testing demo",
+  "main": "app.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "pm2": "^4.4.0"
+  },
+  "scripts": {
+    "test": "pm2 start app.js && mocha && pm2 stop 'all'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangding/unit-test.git"
+  },
+  "keywords": [],
+  "author": "wangding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangding/unit-test/issues"
+  },
+  "homepage": "https://github.com/wangding/unit-test#readme"
+}
